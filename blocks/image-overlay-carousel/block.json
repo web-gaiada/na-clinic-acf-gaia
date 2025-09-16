@@ -1,0 +1,14 @@
+{
+    "apiVersion": 2,
+    "name": "acf/image-overlay-carousel",
+    "title": "Image Overlay Carousel",
+    "description": "Image Overlay Carousel",
+    "category": "layout",
+    "keywords": ["image", "overlay", "carousel", "naclinic"],
+    "viewScript": ["blocks/image-overlay-carousel"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    }
+  }
+  

@@ -1,0 +1,14 @@
+{
+    "apiVersion": 2,
+    "name": "acf/text",
+    "title": "Text",
+    "description": "Text",
+    "category": "layout",
+    "keywords": ["text", "naclinic"],
+    "viewScript": ["blocks/text"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    }
+  }
+  

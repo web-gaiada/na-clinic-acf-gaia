@@ -1,0 +1,14 @@
+{
+    "apiVersion": 2,
+    "name": "acf/text-carousel",
+    "title": "Text Carousel",
+    "description": "Text Carousel",
+    "category": "layout",
+    "keywords": ["text", "carousel", "naclinic"],
+    "viewScript": ["blocks/text-carousel"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    }
+  }
+  

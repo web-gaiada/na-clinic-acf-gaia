@@ -1,0 +1,13 @@
+{
+    "apiVersion": 2,
+    "name": "acf/testimonial-carousel",
+    "title": "Testimonial Carousel",
+    "description": "Testimonial Carousel",
+    "category": "layout",
+    "keywords": ["testimonial", "carousel", "naclinic"],
+    "viewScript": ["blocks/testimonial-carousel"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    }
+}

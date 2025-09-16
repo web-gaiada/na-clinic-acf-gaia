@@ -1,0 +1,14 @@
+{
+    "apiVersion": 2,
+    "name": "acf/button",
+    "title": "Button",
+    "description": "Button",
+    "category": "layout",
+    "keywords": ["button", "naclinic"],
+    "viewScript": ["blocks/button"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    }
+}
+  

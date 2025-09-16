@@ -1,0 +1,14 @@
+{
+    "apiVersion": 2,
+    "name": "acf/logo-carousel",
+    "title": "Logo Carousel",
+    "description": "Logo Carousel",
+    "category": "layout",
+    "keywords": ["logo", "carousel", "naclinic"],
+    "viewScript": ["blocks/logo-carousel"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    }
+  }
+  

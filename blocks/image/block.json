@@ -1,0 +1,14 @@
+{
+    "apiVersion": 2,
+    "name": "acf/image",
+    "title": "image",
+    "description": "image",
+    "category": "layout",
+    "keywords": ["image", "naclinic"],
+    "viewScript": ["blocks/image"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    }
+  }
+  

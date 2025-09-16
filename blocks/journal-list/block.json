@@ -1,0 +1,14 @@
+{
+    "apiVersion": 2,
+    "name": "acf/journal-list",
+    "title": "Journal List",
+    "description": "Journal List",
+    "category": "layout",
+    "keywords": ["Journal", "list", "naclinic"],
+    "viewScript": ["blocks/journal-list"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    }
+  }
+  

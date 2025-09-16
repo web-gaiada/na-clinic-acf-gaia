@@ -1,0 +1,14 @@
+{
+    "apiVersion": 2,
+    "name": "acf/doctor-list",
+    "title": "Doctor List",
+    "description": "Doctor List",
+    "category": "layout",
+    "keywords": ["doctor", "list", "naclinic"],
+    "viewScript": ["blocks/doctor-list"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    }
+}
+  

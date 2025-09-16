@@ -1,0 +1,14 @@
+{
+    "apiVersion": 2,
+    "name": "acf/video",
+    "title": "Video",
+    "description": "Video",
+    "category": "layout",
+    "keywords": ["video", "naclinic"],
+    "viewScript": ["blocks/video"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    }
+  }
+  

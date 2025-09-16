@@ -1,0 +1,14 @@
+{
+    "apiVersion": 2,
+    "name": "acf/promotion-list",
+    "title": "Promotion List",
+    "description": "Promotion List",
+    "category": "layout",
+    "keywords": ["promotion", "list", "naclinic"],
+    "viewScript": ["blocks/promotion-list"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    }
+  }
+  

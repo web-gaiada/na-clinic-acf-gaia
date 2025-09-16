@@ -1,0 +1,14 @@
+{
+    "apiVersion": 2,
+    "name": "acf/stretch-image",
+    "title": "Stretch Image",
+    "description": "Use this outside column to work",
+    "category": "layout",
+    "keywords": ["strecth", "image", "naclinic"],
+    "viewScript": ["blocks/stretch-image"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    }
+  }
+  

@@ -1,0 +1,20 @@
+{
+    "apiVersion": 2,
+    "name": "acf/full-section",
+    "title": "Full Section",
+    "description": "Full Section",
+    "category": "layout",
+    "keywords": ["full", "section", "naclinic"],
+    "viewScript": ["blocks/full-section"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    },
+    "supports": {
+        "align": false,
+        "anchor": true,
+        "customClassName": true,
+        "jsx": true
+    }
+  }
+  

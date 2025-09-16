@@ -1,0 +1,14 @@
+{
+    "apiVersion": 2,
+    "name": "acf/treatment-list",
+    "title": "Treatment List",
+    "description": "Treatment List",
+    "category": "layout",
+    "keywords": ["list", "treatment", "naclinic"],
+    "viewScript": ["blocks/treatment-list"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    }
+  }
+  

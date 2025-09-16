@@ -1,0 +1,14 @@
+{
+    "apiVersion": 2,
+    "name": "acf/hero",
+    "title": "Hero",
+    "description": "Hero Section",
+    "category": "layout",
+    "keywords": ["hero", "naclinic"],
+    "viewScript": ["blocks/hero"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    }
+  }
+  

@@ -1,0 +1,14 @@
+{
+    "apiVersion": 2,
+    "name": "acf/hero-home",
+    "title": "Hero Home",
+    "description": "Hero Home",
+    "category": "layout",
+    "keywords": ["hero", "home", "naclinic"],
+    "viewScript": ["blocks/hero-home"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    }
+  }
+  

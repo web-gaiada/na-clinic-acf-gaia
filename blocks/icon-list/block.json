@@ -1,0 +1,14 @@
+{
+    "apiVersion": 2,
+    "name": "acf/icon-list",
+    "title": "Icon List",
+    "description": "Icon List",
+    "category": "layout",
+    "keywords": ["icon", "list", "naclinic"],
+    "viewScript": ["blocks/icon-list"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    }
+  }
+  

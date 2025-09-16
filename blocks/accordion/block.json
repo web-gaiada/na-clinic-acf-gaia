@@ -1,0 +1,13 @@
+{
+    "apiVersion": 2,
+    "name": "acf/accordion",
+    "title": "Accordion",
+    "description": "Accordion",
+    "category": "layout",
+    "keywords": ["accordion", "naclinic"],
+    "viewScript": ["blocks/accordion"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    }
+}

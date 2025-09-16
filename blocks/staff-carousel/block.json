@@ -1,0 +1,14 @@
+{
+    "apiVersion": 2,
+    "name": "acf/staff-carousel",
+    "title": "Staff Carousel",
+    "description": "Staff Carousel",
+    "category": "layout",
+    "keywords": ["staff", "carousel", "naclinic"],
+    "viewScript": ["blocks/staff-carousel"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    }
+  }
+  

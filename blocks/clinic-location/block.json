@@ -1,0 +1,14 @@
+{
+    "apiVersion": 2,
+    "name": "acf/clinic-location",
+    "title": "Clinic Location",
+    "description": "Clinic Location",
+    "category": "layout",
+    "keywords": ["clinic", "location", "naclinic"],
+    "viewScript": ["blocks/clinic-location"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    }
+}
+  

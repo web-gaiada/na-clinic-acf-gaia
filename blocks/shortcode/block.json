@@ -1,0 +1,13 @@
+{
+    "apiVersion": 2,
+    "name": "acf/shortcode",
+    "title": "Shortcode",
+    "description": "Shortcode",
+    "category": "layout",
+    "keywords": ["shortcode", "naclinic"],
+    "viewScript": ["blocks/shortcode"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    }
+}
