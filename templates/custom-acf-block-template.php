@@ -27,6 +27,7 @@ function get_the_user_ip() {
 
 ?>
 <body <?php body_class() ?>>
+    <!-- test hooks -->
     <?php if(have_posts()) : ?>
         <?php while(have_posts()) : the_post(); ?>
         <?php $menus = wp_get_menu_array('Menu 2025'); ?>
