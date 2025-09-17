@@ -194,7 +194,7 @@ function get_the_user_ip() {
                 <div class="overlay absolute inset-0 w-full h-full bg-black" style="--tw-bg-opacity: .4;"></div>
                 <div class="content-wrapper absolute inset-0 w-full h-full">
                     <div class="md:_container h-full mt-8 justify-center items-center overflow-y-scroll relative z-[10]">
-                        <div class="inner xl:py-28 xl:px-24 lg:py-16 lg:px-16 md:py-12 md:px-12 py-8 px-8 bg-theme-ivory w-full relative">
+                        <div class="inner xl:px-24 lg:py-16 lg:px-16 md:py-12 md:px-12 py-8 px-8 bg-theme-ivory w-full relative">
                             <div class="close-button-form mx-auto text-center md:absolute md:mb-0 mb-8 w-[40px] h-[40px] top-8 right-20 cursor-pointer">
                                 <img src="<?= assets_url('/dist/images/close.svg') ?>" class="w-full h-full object-cover" alt="">
                             </div>
