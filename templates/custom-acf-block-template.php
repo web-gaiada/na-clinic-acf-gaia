@@ -199,7 +199,7 @@ function get_the_user_ip() {
                                 <img src="<?= assets_url('/dist/images/close.svg') ?>" class="w-full h-full object-cover" alt="">
                             </div>
                             <div class="title mb-8 text-center">
-                                <p class="text-h2 font-medium text-theme-gold font-serif"><?= get_field('popup_form_title_text', 'option');  ?></p>
+                                <p class="text-h2 font-medium text-theme-gold font-serif leading-none"><?= get_field('popup_form_title_text', 'option');  ?></p>
                             </div>
                             <div class="form py-8 form-wrapper">
                                 <?= do_shortcode(get_field('popup_form_form_shortcode', 'option')); ?>
