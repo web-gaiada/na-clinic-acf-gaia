@@ -190,7 +190,7 @@ function get_the_user_ip() {
 
 
 
-            <div id="popup-form" class="fixed inset-0 w-full h-full" style="opacity: 0; z-index: -1;">
+            <div id="popup-form" class="fixed inset-0 w-full h-full" style="opacity: 0; z-index: 101;">
                 <div class="overlay absolute inset-0 w-full h-full bg-black" style="--tw-bg-opacity: .4;"></div>
                 <div class="content-wrapper absolute inset-0 w-full h-full">
                     <div class="md:_container h-full mt-8 justify-center items-center overflow-y-scroll relative z-[10]">
