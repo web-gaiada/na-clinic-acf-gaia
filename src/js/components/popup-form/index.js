@@ -50,7 +50,8 @@ const initPopupForm = element => {
     element.openForm = () => {
         gsap.to(element, {
             autoAlpha: 1,
-            zIndex: 101,
+            // zIndex: 101,
+            pointerEvents: 'all'
         })
         disableScroll()
     }
@@ -58,7 +59,8 @@ const initPopupForm = element => {
     element.closeForm = () => {
         gsap.to(element, {
             autoAlpha: 0,
-            zIndex: -1
+            // zIndex: -1,
+            pointerEvents: 'none'
         })
         enableScroll()
     }
