@@ -33,7 +33,19 @@ $link = get_field('link');
 $loop = new WP_Query(array(
     'post_type' => 'post',
     'posts_per_page' => $count,
-    'cat' => 13
+    'cat' => 13,
+    'meta_query'   => [
+        'relation' => 'OR',
+        [
+            'key'     => '_et_pb_use_builder',
+            'compare' => 'NOT EXISTS',
+        ],
+        [
+            'key'     => '_et_pb_use_builder',
+            'value'   => 'on',
+            'compare' => '!=',
+        ],
+    ],
 ));
 if($loop->have_posts()) :
 ?>
