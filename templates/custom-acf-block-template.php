@@ -121,13 +121,13 @@ function get_the_user_ip() {
                                                             <a href="/" class="text-base text-theme-ivory">Home</a>
                                                         </div>
                                                         <div class="menu mb-4">
-                                                            <a href="/treatments-2" class="text-base text-theme-ivory">Treatment</a>
+                                                            <a href="/treatments" class="text-base text-theme-ivory">Treatment</a>
                                                         </div>
                                                         <div class="menu mb-4">
-                                                            <a href="/promotions-2" class="text-base text-theme-ivory">Promotions</a>
+                                                            <a href="/promotions" class="text-base text-theme-ivory">Promotions</a>
                                                         </div>
                                                         <div class="menu mb-4">
-                                                            <a href="/about-2" class="text-base text-theme-ivory">About Us</a>
+                                                            <a href="/about" class="text-base text-theme-ivory">About Us</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -137,7 +137,7 @@ function get_the_user_ip() {
                                                     </div>
                                                     <div class="menu-wrapper">
                                                         <div class="menu mb-4">
-                                                            <a href="/plan-a-visit-2" class="text-base text-theme-ivory">Plan a Visit</a>
+                                                            <a href="/plan-a-visit" class="text-base text-theme-ivory">Plan a Visit</a>
                                                         </div>
                                                         <div class="menu mb-4">
                                                             <a href="mailto:hello@naclinicbali.com" class="text-base text-theme-ivory">Email Us</a>
