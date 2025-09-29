@@ -1,17 +1,6 @@
 <?php
 /* Template Name: Custom Gaia Template */
  ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php wp_head() ?>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-<link class="should-in-head">
-</head>
 
 <?php
 
@@ -27,7 +16,6 @@ function get_the_user_ip() {
 }
 
 ?>
-<body <?php body_class() ?>>
     <?php if(have_posts()) : ?>
         <?php while(have_posts()) : the_post(); ?>
         <?php $menus = wp_get_menu_array('Menu 2025'); ?>
@@ -229,6 +217,4 @@ function get_the_user_ip() {
     <script>
         const userIP = '<?= get_the_user_ip() ?>'
     </script>
-</body>
-</html>
 
